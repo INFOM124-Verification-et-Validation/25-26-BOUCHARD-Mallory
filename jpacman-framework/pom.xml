@@ -16,8 +16,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>23</maven.compiler.source>
+		<maven.compiler.target>23</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<junit.jupiter.version>5.9.3</junit.jupiter.version>
@@ -34,7 +34,7 @@
 		<spotbugs.version>4.7.3</spotbugs.version>
 		<spotbugs.plugin.version>4.7.3.4</spotbugs.plugin.version>
 		<guava.plugin.version>31.1-jre</guava.plugin.version>
-		<jacoco.plugin.version>0.8.9</jacoco.plugin.version>
+		<jacoco.plugin.version>0.8.12</jacoco.plugin.version>
 		<jar.plugin.version>3.0.2</jar.plugin.version>
 		<jxr.plugin.version>2.5</jxr.plugin.version>
 		<projectinfo.plugin.version>2.9</projectinfo.plugin.version>

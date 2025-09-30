@@ -25,7 +25,7 @@ class BoardTest {
      */
     @Test
     void verifyWidth() {
-        // TODO
+        assertThat(board.getWidth()).isEqualTo(grid.length);
     }
 
     /**
@@ -33,7 +33,7 @@ class BoardTest {
      */
     @Test
     void verifyHeight() {
-        // TODO
+        assertThat(board.getHeight()).isEqualTo(grid[0].length);
     }
 
     /**
@@ -48,6 +48,6 @@ class BoardTest {
         "0, 1"
     })
     void testSquareAt(int x, int y) {
-        // TODO
+        assertThat(board.squareAt(x, y)).isInstanceOf(Square.class);
     }
 }
