@@ -34,4 +34,4 @@ jobs:
         working-directory: ./jpacman-framework
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=INFOM124-Verification-et-Validation_25-26-BOUCHARD-Mallory
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=INFOM124-Verification-et-Validation_25-26-BOUCHARD-Mallory -Djava.awt.headless=true
